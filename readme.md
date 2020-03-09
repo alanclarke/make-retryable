@@ -8,7 +8,7 @@
 
 Makes your function retryable
 
-16 LOC, 100% test coverage
+16 LOC, 100% test coverage, no deps
 
 
 ## Installation

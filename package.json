@@ -1,0 +1,19 @@
+{
+  "name": "make-retryable",
+  "version": "1.0.0",
+  "description": "Makes your function retryable",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && nyc --reporter=lcov --reporter=text-summary ava",
+    "lint": "standard",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "author": "Alan Clarke <code@alz.io> (alz.io)",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^3.5.0",
+    "coveralls": "^3.0.9",
+    "nyc": "^15.0.0",
+    "standard": "^14.3.1"
+  }
+}
