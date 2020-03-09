@@ -15,5 +15,19 @@
     "coveralls": "^3.0.9",
     "nyc": "^15.0.0",
     "standard": "^14.3.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanclarke/make-retryable.git"
+  },
+  "keywords": [
+    "retry",
+    "retryable",
+    "retriable"
+  ],
+  "bugs": {
+    "url": "https://github.com/alanclarke/make-retryable/issues"
+  },
+  "homepage": "https://github.com/alanclarke/make-retryable#readme"
 }
