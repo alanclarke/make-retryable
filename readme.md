@@ -28,6 +28,6 @@ Makes your function retryable
   await retryable('https://alz.io')
 
   // Respects input arguments and return values
-  console.log(await retryable(1, 2, 3) === await retryable(1, 2, 3)) // true
+  console.log(await retryable(1, 2, 3) === await fn(1, 2, 3)) // true
 })()
 ```
